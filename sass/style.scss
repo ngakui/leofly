@@ -1,113 +1,166 @@
-/*!
-Theme Name: PingPassion
-Theme URI: http://underscores.me/
-Author: Lorenzo
-Author URI: http://underscores.me/
-Description: Wordpress Theme
-Version: 1.0.0
-Tested up to: 5.4
-Requires PHP: 5.6
-License: GNU General Public License v2 or later
-License URI: LICENSE
-Text Domain: ping-passion
-Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned.
-
-PingPassion is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+/*
+    Theme Name:  LeoFLy
+    Text Domain:  LeoFly
+    Version: 1.0
+    Description: Custom Theme For LeoFly Association
+    Author: BAP47
 */
 
-/*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
-----------------------------------------------------------------
-# Generic
-	- Normalize
-	- Box sizing
-# Base
-	- Typography
-	- Elements
-	- Links
-	- Forms
-## Layouts
-# Components
-	- Navigation
-	- Posts and pages
-	- Comments
-	- Widgets
-	- Media
-	- Captions
-	- Galleries
-# plugins
-	- Jetpack infinite scroll
-# Utilities
-	- Accessibility
-	- Alignments
+@mixin max800px{
+    @media(max-width: 800px) {@content;} 
+        
+    }
 
---------------------------------------------------------------*/
-
-// Import variables and mixins.
-@import "abstracts/abstracts";
-
-/*--------------------------------------------------------------
-# Generic
---------------------------------------------------------------*/
-
-/* Normalize
---------------------------------------------- */
-@import "generic/normalize";
-
-/* Box sizing
---------------------------------------------- */
-@import "generic/box-sizing";
-
-/*--------------------------------------------------------------
-# Base
---------------------------------------------------------------*/
-@import "base/base";
-
-/*--------------------------------------------------------------
-# Layouts
---------------------------------------------------------------*/
-// @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
-// @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
-
-/*--------------------------------------------------------------
-# Components
---------------------------------------------------------------*/
-@import "components/components";
-
-/*--------------------------------------------------------------
-# Plugins
---------------------------------------------------------------*/
-
-/* Jetpack infinite scroll
---------------------------------------------- */
-@import "plugins/jetpack/infinite-scroll";
-
-/*--------------------------------------------------------------
-# Utilities
---------------------------------------------------------------*/
-
-/* Accessibility
---------------------------------------------- */
-@import "utilities/accessibility";
-
-/* Alignments
---------------------------------------------- */
-@import "utilities/alignments";
-
-
-@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Source+Sans+Pro:wght@700&display=swap');
-
-
-.row{
-	display: none;
+body
+{
+text-align: left;
 }
+#ttr_sidebar
+{
+border-left: 1px solid black;
+}
+#ttr_footer
+{
+width: 100%;
+border-top: 1px #a2a2a2 solid;
+text-align: center;
+}
+.title
+{
+font-size: 11pt;
+font-family: verdana;
+font-weight: bold;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.vertical-arrow{
+    border-left: 2px solid #fff;
+    display: flex;
+    height: 50px;
+    margin: 0 auto;
+    width: 0;
+}
+
+.scroll-section {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 50%;
+}
+
+.wp-block-cover__inner-container{
+    margin: 0 30vh;
+}
+
+.wp-block-columns{
+    display: block;
+}
+
+body {
+    font-family: bilo;
+    font-weight: 400;
+    font-size: 29px;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 51px;
+    margin-bottom: 45px;
+}
+
+.home-button{
+    margin-top: 35px;
+}
+
+#ttr_footer{
+    background-color: #000219;
+    color: #fff;
+    border: 0;
+}
+
+.contain-footer{
+    display: flex;
+    padding: 10vh;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.logo-footer{
+    margin-left: 40px;
+
+}
+
+.menu {
+    display: none;
+}
+
+
+#fullview {
+    display: block;
+    height: 100vh !important;
+    /* width: 100vw !important; */
+    /* transform: translateZ(0) rotateZ(360deg); */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 1000;
+    overflow: hidden;
+}
+
+
+.fv-tooltip {
+    position: relative;
+    transition: all .65s cubic-bezier(.84, -0.18, .31, 1.26);
+}
+
+/* Tooltip text */
+.fv-tooltip .fv-tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background: #3E474F;
+    border-radius: .25em;
+    color: #EDEFF0;
+    text-align: center;
+    padding: 5px 0;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+
+    top: -1px;
+    right: 105%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fv-tooltip:hover .fv-tooltiptext {
+    visibility: visible;
+}
+
+.fv-tooltip .fv-tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    /* To the right of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #3E474F;
+}
+
+.fv-tooltip.fv-tooltip-left .fv-tooltiptext::after {
+    left: unset;
+    right: 100%;
+    border-color: transparent #3E474F transparent transparent;
+}
+
+
+
 
 .container_2 h1{
     font-size: 170px;
@@ -118,6 +171,9 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
+    @include max800px{
+      font-size: 100px;
+    }
 }
 
 .container_2 h2{
@@ -126,11 +182,15 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	justify-content: center;
 	color: white;
 	text-align: center;
+	@include max800px{
+		font-size: 20px;
+	}
+
 }
 
 
 .container_2 {
-	background-image: url("http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Nebula.gif");
+	background-image: url("assets/images/Nebula.gif");
 	background-size: cover;
 	width: 100%;
 	font-family: "Orbitron"; 
@@ -154,11 +214,134 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	display: flex;
 }
 
+.navbar{
+	padding: 0;
+}
+
 .logo{
-	background-image: url("http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Logo.png");
+	background-image: url("assets/images/logo.png");
 	background-size: cover;
 	width: 130px;
 	height: 70px;
 	position: relative;
 	display: flex;
+
 }
+
+.discover{
+	height: 100px; 
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	color: white;
+	justify-content: center;
+    align-items: flex-end;
+	margin-top: 150px;
+	
+}
+
+.row {
+    margin: 0;
+}
+
+.burger {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(54, 53, 53);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    color: white;
+    transform: translateY(-100%); /*Cache le menu par dÃ©faut*/
+    transition: transform 0.7s ease;
+    z-index: 40000;
+
+    @include max800px{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: red;
+        background-size:cover ;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        color: white;
+        transition: transform 0.7s ease;
+        z-index: 4000;
+    }
+    
+    & ul {
+        width: 100%;
+        height: 100%;
+        list-style: none;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        @include max800px{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            flex-wrap: nowrap;
+            justify-content: space-evenly;
+            flex-direction: column;
+            align-content: flex-end;
+        }
+    }  
+
+        & ul a {
+        color: white;
+        padding-bottom: 6px;
+        border-bottom: 1px solid white;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        @include max800px{
+            color: white;
+            border-bottom: 1px solid white;
+            text-decoration: none;
+            font-size: 18px;
+
+        }
+        }
+    }
+
+.ham{
+	display: none;
+}
+
+@media screen and (max-width :800px) {
+	.ham {
+		display: block;
+		position: absolute;
+		z-index: 5000; /* Me permet de superposer le boutton  */
+		top: 10px;
+		right: 5px;
+		width: 36px;
+		height: 36px;
+		border: none;
+		cursor: pointer;
+		background-image:  url("assets/images/Logo.png");;
+		background-size: 100%;
+		position: fixed;
+	
+	}
+		
+	.showClose {
+		background-image:  url("assets/images/Logo.png");;
+		background-size: 100%;
+		z-index: 50000;
+	
+	
+	}
+	
+	.showNav {
+		transform: translateY(0);    
+	}
+		
+	
+	}
