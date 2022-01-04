@@ -6,16 +6,8 @@
 <body <?php 
 // body_class(); 
 ?>>
-<div id="ttr_header" class="jumbotron">
-
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
   <!-- Brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
-
-  <!-- Toggler/collapsibe Button -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
   <!-- Navbar links -->
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
@@ -29,22 +21,36 @@
             )
         );
       ?>
+    <div class="logo"></div>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Accueil</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Membres</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Projets</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Événements</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">A propos</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
       </li> 
     </ul>
   </div> 
 </nav>
 
-<h1> <?php 
-    the_title();
-?> </h1>
 </div>
-<div class="container">
+<div class="container_2">
+      <h1>
+          LEOFLY
+      </h1>
+      <h2>
+          Association d'aérospatial et d'aéronautique
+      </h2>    
+</div>

@@ -159,11 +159,13 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
 }
+
 @media (max-width: 800px) {
   .container_2 h1 {
     font-size: 100px;
   }
 }
+
 
 .container_2 h2 {
   font-size: 40px;
@@ -172,6 +174,7 @@ body {
   color: white;
   text-align: center;
 }
+
 @media (max-width: 800px) {
   .container_2 h2 {
     font-size: 20px;
@@ -179,7 +182,7 @@ body {
 }
 
 .container_2 {
-  background-image: url("assets/images/nebula.gif");
+  background-image: url("assets/images/Nebula.gif");
   background-size: cover;
   width: 100%;
   font-family: "Orbitron";
@@ -203,12 +206,13 @@ body {
   display: flex;
 }
 
+
 .navbar {
   padding: 0;
 }
 
 .logo {
-  background-image: url("assets/images/logo.png");
+  background-image: url("assets/images/Logo.png");
   background-size: cover;
   width: 130px;
   height: 70px;
