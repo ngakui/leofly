@@ -89,12 +89,22 @@ body {
     display: flex;
     padding: 10vh;
     justify-content: flex-start;
-    gap: 30px;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+.text-footer{
+    display: flex;
+    gap: 35px;
+    justify-content: space-evenly;
 }
 
 .logo-footer{
-    margin-left: 40px;
+    margin-top: 3px;
+}
 
+.fab{
+    margin: 0 25px;
 }
 
 .menu {
