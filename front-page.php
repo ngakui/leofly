@@ -8,15 +8,15 @@
     the_post();
     the_content();
  ?>
-<div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
-<img src="http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Nebula.gif">
+<!-- <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12"> -->
+<!-- <img src="http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Nebula.gif"> -->
 <?php 
 // the_time('F jS, Y') 
 ?></h4>
 <p><?php 
 // the_content(__('(more...)')); 
 ?></p>
-</div>
+<!-- </div> -->
 <?php endwhile; else: ?>
 <p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 <?php endif; ?>
