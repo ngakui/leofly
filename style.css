@@ -241,9 +241,8 @@ body {
 .row {
   margin: 0;
 }
-
-.editor-styles-wrapper {
-  background-color: #10002B;
+.post-16{
+	background-color: #10002B
 }
 
 .burger {
