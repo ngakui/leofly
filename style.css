@@ -144,23 +144,31 @@ body {
   color: white;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-end; }
-  @media (max-width: 800px) {
-    .container_2 h1 {
-      font-size: 100px; } }
+
+
+@media (max-width: 800px) {
+  .container_2 h1 {
+    font-size: 100px;
+  }
+}
 
 .container_2 h2 {
   font-size: 40px;
   display: flex;
   justify-content: center;
   color: white;
-  text-align: center; }
-  @media (max-width: 800px) {
-    .container_2 h2 {
-      font-size: 20px; } }
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .container_2 h2 {
+    font-size: 20px;
+  }
+}
+
 
 .container_2 {
-  background-image: url("assets/images/nebula.gif");
+  background-image: url("assets/images/Nebula.gif");
   background-size: cover;
   width: 100%;
   font-family: "Orbitron";
@@ -181,11 +189,12 @@ body {
   color: white;
   display: flex; }
 
+
 .navbar {
   padding: 0; }
 
 .logo {
-  background-image: url("assets/images/logo.png");
+  background-image: url("assets/images/Logo.png");
   background-size: cover;
   width: 130px;
   height: 70px;

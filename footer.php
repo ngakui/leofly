@@ -1,3 +1,4 @@
+
 <div id= "ttr_footer">
     <div class="contain-footer">
         <div class="text-footer">
@@ -14,5 +15,3 @@
 </div>
 
 <?php wp_footer();?>
-</body>
-</html>

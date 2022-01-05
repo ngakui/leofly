@@ -181,9 +181,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-end;
-	@include max800px{
-		font-size: 100px;
-	}
+    @include max800px{
+      font-size: 100px;
+    }
 }
 
 .container_2 h2{
@@ -195,11 +195,12 @@ body {
 	@include max800px{
 		font-size: 20px;
 	}
+
 }
 
 
 .container_2 {
-	background-image: url("assets/images/nebula.gif");
+	background-image: url("assets/images/Nebula.gif");
 	background-size: cover;
 	width: 100%;
 	font-family: "Orbitron"; 
@@ -234,6 +235,7 @@ body {
 	height: 70px;
 	position: relative;
 	display: flex;
+
 }
 
 .discover{
@@ -333,14 +335,14 @@ body {
 		height: 36px;
 		border: none;
 		cursor: pointer;
-		background-image:  url("http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Logo.png");;
+		background-image:  url("assets/images/Logo.png");;
 		background-size: 100%;
 		position: fixed;
 	
 	}
 		
 	.showClose {
-		background-image:  url("http://localhost/leofly_lorenzo/wordpress/wp-content/themes/leofly/assets/images/Logo.png");;
+		background-image:  url("assets/images/Logo.png");;
 		background-size: 100%;
 		z-index: 50000;
 	
