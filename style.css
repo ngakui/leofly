@@ -218,10 +218,20 @@ body {
   padding: 0;
 }
 
+.nav-item-space {
+  margin-right: 20px;
+}
+
+.nav-item > a {
+  color: white;
+}
+
 .logo {
-  background-image: url("assets/images/Logo.png");
+  /* background-image: url("assets/images/Logo.png"); */
   background-size: cover;
-  width: 130px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 137px;
   height: 70px;
   position: relative;
   display: flex;
