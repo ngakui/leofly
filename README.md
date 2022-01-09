@@ -17,4 +17,4 @@ Un template Wordpress créé personnalisé pour l'association LéoFly du Pôle L
 
 
 ## License
-Ce code sous licence privée, toute personne copiant ce code sans autorisation pourra être poursuivi en justice! 
+Ce code sous licence protégée, toute personne copiant ce code sans autorisation pourra être poursuivi en justice! 
