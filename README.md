@@ -1,6 +1,6 @@
 # Léofly Template
 
-Un template Wordpress créé personnalisé pour l'association LéoFly du Pôle Léonard de Vinci.
+Un template Wordpress personnalisé créé pour l'association LéoFly du Pôle Léonard de Vinci.
 
 ## Prérequis
 ---> Avoir Wordpress installé. Suivez le lien ci-contre pour en savoir plus: [Wordpress](https://wordpress.com/fr/)
