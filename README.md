@@ -5,7 +5,7 @@ Un template Wordpress créé personnalisé pour l'association LéoFly du Pôle L
 ## Prérequis
 ---> Avoir Wordpress installé. Suivez le lien ci-contre pour en savoir plus: [Wordpress](https://wordpress.com/fr/)
 
-# Installation and Run
+## Installation and Run
 ---> Cloner le project en local ou sur votre dans le dossier `wp-content/themes/` <br />
 ---> Allez dans l'interface d'administration et installez le thème. 
 
