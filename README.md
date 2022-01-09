@@ -9,7 +9,7 @@ Un template Wordpress créé personnalisé pour l'association LéoFly du Pôle L
 ---> Cloner le project en local ou sur votre dans le dossier `wp-content/themes/` <br />
 ---> Allez dans l'interface d'administration et installez le thème. 
 
-## Languages utilisé: HTML5, JAVASCRIPT, SCSS, PHP
+## Languages utilisés: HTML5, JAVASCRIPT, SCSS, PHP
 
 ## Version du template: 1.0
 
